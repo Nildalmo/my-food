@@ -1,7 +1,7 @@
 import React from "react";
 import { TextInputProps, View } from "react-native";
 import { forwardRef } from "react";
-import { AuthTextInputLabel, AuthTextInput } from "../app/styles/auth.style";
+import { AuthTextInputLabel, AuthTextInput } from "../styles/auth.style";
 
 export interface inputProps extends TextInputProps {
   label: string;
@@ -12,7 +12,7 @@ const BaseStyle = ({ label, ...rest }: inputProps, ref: any) => {
     <View>
       <AuthTextInputLabel>{label}</AuthTextInputLabel>
       <AuthTextInput ref={ref} {...rest} />
-          </View>
+    </View>
   );
 };
 

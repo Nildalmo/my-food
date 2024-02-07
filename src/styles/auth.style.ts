@@ -1,3 +1,4 @@
+import { Link } from "expo-router/build/link/Link";
 import styled  from "styled-components/native";
 
 
@@ -37,6 +38,7 @@ export const AuthButton = styled.TouchableOpacity`
     background-color:#E7562AFF;
     padding-top:10px;
     border-radius: 5px;
+    margin-top:10px;
     
 
 `;
@@ -55,5 +57,10 @@ width: 80%;
 margin: auto;
 border-radius: 5px;
 box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 1px;
+
+`;
+
+export const AuthLink = styled(Link)`
+color: #E7562AFF;
 
 `;
