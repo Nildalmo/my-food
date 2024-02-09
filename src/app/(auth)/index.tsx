@@ -28,7 +28,7 @@ export default function Login() {
       <Input label="Senha:" placeholder="digite sua senha..." />
 
       <AuthButton onPress={handleLogin}>
-        <Text style={{ textAlign: "center", color: "#fff" }}>Entrar</Text>
+        <Text style={{ textAlign: "center", color:"#fff"}}>Entrar</Text>
       </AuthButton>
       <AuthFormDivider />
       <Text style={{ textAlign: "center" }}>
